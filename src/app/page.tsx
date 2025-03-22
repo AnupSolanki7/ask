@@ -38,7 +38,7 @@ export default function CoffeeDateRequest() {
         {dateConfirmed ? (
           <>
             <h1 className="text-3xl font-extrabold text-gray-800 mb-6">
-              Yay! 🎉 Can&apos;t wait for our coffee date at {dateConfirmed}, Manali! ☕💖
+              Yay! 🎉 Can&apos;t wait for our coffee date at {dateConfirmed}, Prathuuu! ☕💖
             </h1>
             <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>
               <Coffee className="inline-block w-24 h-24 text-rose-400" />
@@ -67,7 +67,7 @@ export default function CoffeeDateRequest() {
         ) : (
           <>
             <h1 className="mb-6 text-3xl font-extrabold text-gray-800">
-              Manali, I&apos;ve prepared a special surprise just for you! 🎁
+              Prathuuu, I&apos;ve prepared a special surprise just for you! 🎁
             </h1>
             <p className="text-lg text-gray-600 mb-6">Ready to embark on a delightful coffee adventure?</p>
             <Button
